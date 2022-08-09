@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="firstPj.css">
+</head>
+<body>
+    <div class="myBalance">
+        <div class="left">
+            <span>My Balance</span>
+            <p>$921.48</p> 
+        </div>
+        <div class="right">
+            <div class="lightMode"><i class="fa-solid fa-sun"></i></div>
+            <!-- <div class="darkMode"><i class="fa-solid fa-moon"></i></div> -->
+        </div>
+    </div>
+    <div class="barchart">
+        <p style="margin-top: 30px; text-align:center;">Spending - Last 7 days </p>
+
+        <div class="chart">
+            <div class="monchart mychart"></div>
+            <div class="tuechart mychart"></div>
+            <div class="wedchart mychart"></div>
+            <div class="thuchart mychart"></div>
+            <div class="frichart mychart"></div>
+            <div class="satchart mychart"></div>
+            <div class="sunchart mychart"></div>
+        </div>
+
+        <div class="day">
+            <div class="mon">Mon</div>
+            <div class="tue">Tue</div>
+            <div class="wed">Wed</div>
+            <div class="thu">Thu</div>
+            <div class="fri">Fri</div>
+            <div class="sat">Sat</div>
+            <div class="sun">Sun</div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="monthBalance">
+            <div class="left1">
+                <span>Total this month</span>
+                <p class='total'></p>
+            </div>
+            <div class="right1">
+                <strong>+2.4%</strong>
+                <span>from last month</span>
+            </div>
+        </div>
+
+    </div>
+    <script src="firstPj.js"></script>
+</body>
+</html>
